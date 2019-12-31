@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="FinalAnt.makejar" default="makejar" basedir=".">
+	
+	<target name="makejar" description="Creat a jar of the Final Ant project">
+		<jar destfile="nccusd.jar" includes="*.class" basedir="."/>
+	</target>
+	
+</project>
